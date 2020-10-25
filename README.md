@@ -12,5 +12,5 @@ Http get request - localhost:8080/trendingHashtags
 Database name - twitter
 Table Name - tweets
 Table Schema - 
-tweet_id BigInt PRIMARY KEY
+tweet_id BigInt PRIMARY KEY,
 tweet varchar
