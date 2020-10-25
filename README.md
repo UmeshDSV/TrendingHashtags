@@ -12,9 +12,5 @@ Http get request - localhost:8080/trendingHashtags
 Database name - twitter
 Table Name - tweets
 Table Schema - 
-
- Field    | Type         | Null | Key | Default | Extra |
-+----------+--------------+------+-----+---------+-------+
-| tweet_id | bigint       | NO   | PRI | NULL    |       |
-| tweet    | varchar(255) | YES  |     | NULL    |       |
-+----------+--------------+------+-----+---------+-------+
+tweet_id BigInt PRIMARY KEY
+tweet varchar
